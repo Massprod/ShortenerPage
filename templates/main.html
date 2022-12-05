@@ -8,13 +8,13 @@
                         <input name="long" type="url" class="form-control fs-5" id="longURL" placeholder="place URL to short" pattern="https://.*" value="{{ long_url }}">
             </div>
             <div class="col-md-6 pt-5 fs-2 fw-bold">
-                    <label for="shortUrl">Shorten</label>
+                    <label for="shortUrl">Shortened</label>
                     <input type="url" class="form-control fs-5" id="shortURL" placeholder="always waiting" readonly value="{{ short_url }}">
             </div>
         </div>
         <div class="row text-center">
                 <div class="col p-3">
-                <button class="btn btn-primary text-uppercase btn-light w-50 fs-5 fw-bold" id="submitButton" type="submit">short</button>
+                <button class="btn btn-primary text-uppercase btn-light w-50 fs-5 fw-bold" id="submitButton" type="submit">shorten</button>
                 </div>
             </div>
         {% if exist %}
